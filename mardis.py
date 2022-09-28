@@ -85,7 +85,7 @@ def main():
         exit("usage: mardis file_name.py")
     globals()['dah_lah']=sys.argv[1]
     sys.argv=[dah_lah,"code.py",".master_key"]
-    print("If You Get Error Decompile, Error code saved to %s"%sys.argv[1])
+    print("If You Get Decompile, code saved to %s"%sys.argv[1])
     dis(*sys.argv)
 if __name__ == "__main__":
     main()
